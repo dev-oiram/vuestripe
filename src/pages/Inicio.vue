@@ -1,6 +1,13 @@
 <template>
-    <q-page class="flex flex-center">
-        <h5>{{ titulo }}</h5>
+    <q-page>
+        <div>
+            <h5 class="text-center bg-secondary text-white q-pa-md">
+                {{ titulo }}
+            </h5>
+            <div class="q-ma-sm">
+                TODO
+            </div>
+        </div>
     </q-page>
 </template>
 
